@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FuncLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FuncLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FuncLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FuncLib: 2f78c4091128898be05a889a7b46cef6ce02504b
+
+PODFILE CHECKSUM: e74bf9aec797a85d9b922d092018eaf9b1a74d83
+
+COCOAPODS: 1.8.4
